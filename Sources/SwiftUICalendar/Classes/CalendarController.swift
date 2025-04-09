@@ -8,6 +8,7 @@
 import SwiftUI
 import Combine
 
+@available(macOS 10.15, *)
 public class CalendarController: ObservableObject {
     @Published public var yearMonth: YearMonth
     @Published public var isLocked: Bool
